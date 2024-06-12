@@ -1,86 +1,75 @@
-Versão mobile do sistema vuv ( vida util do veículo ) 
+<p align="center">
+  <a href="https://github.com/MatheusmotaDev/vuv-mobile" target="_blank">
+    <img src="assets/logo.png" width="400" alt="VUV Logo">
+  </a>
+</p>
 
-Descrição
-Este projeto é uma aplicação em react native da versão do sistema web vuv, essa versão da aplicação mobile contém apenas o cadastro, login e área do cliente.
+<p align="center">
+  <a href="https://github.com/MatheusmotaDev/vuv-mobile/actions">
+    <img src="https://github.com/MatheusmotaDev/vuv-mobile/workflows/tests/badge.svg" alt="Build Status">
+  </a>
+  <a href="https://github.com/MatheusmotaDev/vuv-mobile/releases">
+    <img src="https://img.shields.io/github/v/release/MatheusmotaDev/vuv-mobile" alt="Latest Release">
+  </a>
+  <a href="https://github.com/MatheusmotaDev/vuv-mobile/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/MatheusmotaDev/vuv-mobile" alt="License">
+  </a>
+</p>
 
-Bibliotecas Instaladas e Utilizadas
-1. Expo CLI
+## Versão Mobile do Sistema VUV (Vida Útil do Veículo)
+
+### Descrição
+Este projeto é uma aplicação em React Native da versão do sistema web VUV. Esta versão da aplicação mobile contém funcionalidades de cadastro, login e área do cliente.
+
+### Bibliotecas Instaladas e Utilizadas
+
+#### 1. Expo CLI
 Utilizado para criar e gerenciar o projeto.
 
-2. React Navigation
-
+#### 2. React Navigation
 Biblioteca principal para navegação entre as telas.
+- `@react-navigation/native`
+- `@react-navigation/stack`
+- `@react-navigation/bottom-tabs`
+- `react-native-screens`
+- `react-native-safe-area-context`
 
-@react-navigation/native
-@react-navigation/stack
-@react-navigation/bottom-tabs
-react-native-screens
-react-native-safe-area-context
-
-3. AsyncStorage
+#### 3. AsyncStorage
 Utilizado para armazenamento local de dados.
+- `@react-native-async-storage/async-storage`
 
-@react-native-async-storage/async-storage
-
-4. Moment.js
+#### 4. Moment.js
 Biblioteca para manipulação e formatação de datas e horas.
+- `moment`
+- `moment/locale/pt-br`
 
-moment
-moment/locale/pt-br
+### Estrutura de Pastas
 
-Estrutura de Pastas
-1. Pasta Principal do Projeto
-assets/
-logo.png (imagem da logo do sistema)
-screens/ (contém os componentes de tela)
-LoginScreen.js
-RegisterScreen.js
-HomeScreen.js
-CreateQuotationScreen.js
-QuotationsListScreen.js
-ForgotPasswordScreen.js
-2. Outros Arquivos Importantes
-App.js (arquivo principal que configura a navegação)
-package.json (contém as dependências do projeto)
+#### 1. Pasta Principal do Projeto
+- **assets/**
+  - `logo.png` (imagem da logo do sistema)
+- **screens/** (contém os componentes de tela)
+  - `LoginScreen.js`
+  - `RegisterScreen.js`
+  - `HomeScreen.js`
+  - `CreateQuotationScreen.js`
+  - `QuotationsListScreen.js`
+  - `ForgotPasswordScreen.js`
 
+#### 2. Outros Arquivos Importantes
+- `App.js` (arquivo principal que configura a navegação)
+- `package.json` (contém as dependências do projeto)
 
-Como Testar o Projeto
-Passo 1: Instalar o Visual Studio Code
-https://code.visualstudio.com/download
-Baixe e instale o Visual Studio Code.
+### Como Testar o Projeto
 
-Passo 2: Instalar o Node.js
-https://nodejs.org/en
-Baixe e instale o Node.js.
+#### Passo 1: Instalar o Visual Studio Code
+Baixe e instale o [Visual Studio Code](https://code.visualstudio.com/download).
 
-Passo 3: Instalar e Configurar o Git
-https://www.git-scm.com/
-Baixe e instale o Git. Após a instalação, configure o Git com seu nome de usuário e email do GitHub:
+#### Passo 2: Instalar o Node.js
+Baixe e instale o [Node.js](https://nodejs.org/en).
 
+#### Passo 3: Instalar e Configurar o Git
+Baixe e instale o [Git](https://www.git-scm.com/). Após a instalação, configure o Git com seu nome de usuário e email do GitHub:
 
 git config --global user.name "seu-username"
 git config --global user.email "seu-email@example.com"
-Passo 4: Clonar o Repositório
-Clone o repositório do projeto para sua máquina local:
-https://github.com/MatheusmotaDev/vuv-mobile.git
-
-
-
-git clone https://github.com/MatheusmotaDev/vuv-mobile.git
-cd vuv-mobile
-Passo 5: Instalar as Dependências
-No terminal, dentro do diretório do projeto, execute o comando:
-
-
-npm install
-Passo 6: Baixar e Configurar o Expo Go
-Baixe o aplicativo Expo Go no seu celular (disponível para Android e iOS).
-Crie uma conta ou faça login no Expo Go.
-Passo 7: Iniciar o Projeto
-No terminal, dentro do diretório do projeto, execute o comando:
-
-npm start
-Passo 8: Executar no Dispositivo
-Abra o Expo Go no seu celular.
-Escaneie o QR code que aparece no terminal do Visual Studio Code.
-Pronto!
