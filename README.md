@@ -4,10 +4,7 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/MatheusmotaDev/vuv-mobile/actions">
-    <img src="https://github.com/MatheusmotaDev/vuv-mobile/workflows/tests/badge.svg" alt="Build Status">
-  </a>
+
   <a href="https://github.com/MatheusmotaDev/vuv-mobile/releases">
     <img src="https://img.shields.io/github/v/release/MatheusmotaDev/vuv-mobile" alt="Latest Release">
   </a>
@@ -73,3 +70,31 @@ Baixe e instale o [Git](https://www.git-scm.com/). Após a instalação, configu
 
 git config --global user.name "seu-username"
 git config --global user.email "seu-email@example.com"
+
+#### Passo 4: Clonar o Repositório
+Clone o repositório do projeto para sua máquina local:
+
+git clone https://github.com/MatheusmotaDev/vuv-mobile.git
+cd vuv-mobile  <- ENTRE NA PASTA DO PROJETO
+
+#### Passo 5: Instalar as Dependências
+
+No terminal, dentro do diretório do projeto, execute o comando:
+ - `npm install` 
+
+#### Passo 6: Baixar e Configurar o Expo Go
+
+Baixe o aplicativo Expo Go no seu celular (disponível para Android e iOS).
+Crie uma conta ou faça login no Expo Go.
+
+
+#### Passo 7: Iniciar o projeto
+No terminal, dentro do diretório do projeto, execute o comando:
+- `npm start` 
+
+#### Passo 8: Executar no Dispositivo 
+
+- `Abra o Expo Go no seu celular.` 
+- `Escaneie o QR code que aparece no terminal do Visual Studio Code.` 
+
+
